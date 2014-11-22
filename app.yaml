@@ -1,0 +1,11 @@
+application: ruterrt
+version: 1
+runtime: python27
+api_version: 1
+
+module: default
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: ruter.application
